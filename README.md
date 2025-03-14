@@ -1,45 +1,43 @@
-⚡ Features
+# Hotel Booking System
 
-✅ User Management
+## ⚡ Features
 
-Register/Login (JWT Authentication)
+### ✅ User Management
+- Register/Login (JWT Authentication)
+- Session Management
 
-Session Management
+### ✅ Hotel Management
+- View available hotels
+- View hotel images & ratings
+- Display available rooms with a calendar
 
-✅ Hotel Management
+### ✅ Booking System
+- Select date range & book a hotel
+- Check room availability before booking
+- View user-specific bookings
 
-View available hotels
+### ✅ Review System
+- Leave reviews & ratings for hotels
+- Fetch & display reviews per hotel
 
-View hotel images & ratings
+## 🛠 Tech Stack
 
-Display available rooms with a calendar
+### **Frontend** (React + Chakra UI)
+- React.js
+- Chakra UI (UI Components)
+- FullCalendar (Booking Calendar)
+- Axios (API Calls)
 
-✅ Booking System
-
-Select date range & book a hotel
-
-Check room availability before booking
-
-View user-specific bookings
-
-✅ Review System
-
-Leave reviews & ratings for hotels
-
-Fetch & display reviews per hotel
-
-
-Frontend (React + Chakra UI)
-
-React.js
-
-Chakra UI
-
-FullCalendar (Booking Calendar)
-
-Axios (API Calls)
+## 📋 Prerequisites
+Before running the project, ensure you have the following installed:
+- **Node.js** v20.18.3
+- **npm** v10.9.2
 
 
-Prerequisite
-node v20.18.3
-npm v10.9.2
+##  Environment Variables
+Create a `.env` file in the root directory and add the following:
+```
+REACT_APP_API_URL=http://your-backend-url.com/api
+```
+Replace `http://your-backend-url.com/api` with your actual backend API URL.
+
